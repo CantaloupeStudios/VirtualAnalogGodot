@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://Player.gd" type="Script" id=2]
+[ext_resource path="res://VirtualAnalog.tscn" type="PackedScene" id=3]
+
+[node name="SampleGame" type="Node2D"]
+
+[node name="Player" type="Sprite" parent="."]
+position = Vector2( 605.966, 309.19 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="VirtualAnalog" parent="CanvasLayer" instance=ExtResource( 3 )]
+visible = false
+
+[node name="VirtualAnalog2" parent="CanvasLayer" instance=ExtResource( 3 )]
+visible = false
+screen_side = 1
+
+[connection signal="analog_move" from="CanvasLayer/VirtualAnalog" to="Player" method="_on_VirtualAnalog_analog_move"]
+[connection signal="analog_touch" from="CanvasLayer/VirtualAnalog" to="Player" method="_on_VirtualAnalog_analog_touch"]
+[connection signal="analog_move" from="CanvasLayer/VirtualAnalog2" to="Player" method="_on_VirtualAnalog2_analog_move"]
+[connection signal="analog_touch" from="CanvasLayer/VirtualAnalog2" to="Player" method="_on_VirtualAnalog2_analog_touch"]
