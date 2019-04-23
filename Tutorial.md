@@ -18,8 +18,8 @@ This guide assumes that you understand some programming
 and knows how the godot engine works, but any advices and 
 questions are welcome in the comment section bellow.
 
-[Assets for this tutorial](https://drive.google.com/file/d/17ccGCXtCH6i9lLMqRfkTd7QygE3b1hHX/view?usp=sharing)
-[FullProject](https://github.com/CantaloupeStudios/VirtualAnalogGodot)
+ * [Assets for this tutorial](https://drive.google.com/file/d/17ccGCXtCH6i9lLMqRfkTd7QygE3b1hHX/view?usp=sharing)
+ * [FullProject](https://github.com/CantaloupeStudios/VirtualAnalogGodot)
 
 ### 0.1 - The setup
 <!-- Create the assets for this part -->
