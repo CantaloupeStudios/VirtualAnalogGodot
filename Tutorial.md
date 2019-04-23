@@ -3,10 +3,10 @@
 Steps: 
 
  0. Introduction / Setup
- 1. Understand the touch/mouse input system
+ 1. understanding the touch/mouse input system
  2. Implement
  3. Track the movement using the drag
- 4. Understand how to integrate with the game.
+ 4. understanding how to integrate with the game.
  5. Integrate with the game.
  6. Implementing multitouch.
 
@@ -35,9 +35,8 @@ Now i will add a script to the root scene, and i am calling
 it `VirtualAnalog.gd`.
 Also set the inner analog position to 0,0.
 
-<!-- Insert picture here -->
-
-## 1 - Understand the touch input system
+![Scene Structure](https://github.com/CantaloupeStudios/VirtualAnalogGodot/blob/master/SceneStructure01.png?raw=true)
+## 1 - understanding the touch input system
 Before we start coding i would like to explain the
 input system for the touch and dragging events inside the godot engine.
 
