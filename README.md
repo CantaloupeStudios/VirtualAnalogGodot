@@ -1,6 +1,8 @@
 # VirtualAnalogGodot
 Virtual Analog for mobile platforms made for the Godot Engine 3.1, with multi touch support.
 
+[See the tutorial for this project here](https://github.com/CantaloupeStudios/VirtualAnalogGodot/blob/master/Tutorial.md).
+
 
 ---
 
