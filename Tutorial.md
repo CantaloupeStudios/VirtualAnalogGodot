@@ -16,7 +16,7 @@ virtual analogic controlls to your mobile game using
 the godot engine 3.1.
 This guide assumes that you understand some programming
 and knows how the godot engine works, but any advices and 
-questions are welcome in the comment section bellow.
+questions are welcome in the Issues section.
 
  * [Assets for this tutorial](https://drive.google.com/file/d/17ccGCXtCH6i9lLMqRfkTd7QygE3b1hHX/view?usp=sharing)
  * [FullProject](https://github.com/CantaloupeStudios/VirtualAnalogGodot)
