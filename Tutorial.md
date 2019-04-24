@@ -777,5 +777,5 @@ and follow me here for more content. If you are interested in checking out
 the game that i am currently developing, please follow me on twitter. 
 
  * [Twitter @cantaloupestud1](https://twitter.com/cantaloupestud1)
- * [Itch.io Cantaloupe Studios](cantaloupestudios.itch.io)
+ * [Itch.io Cantaloupe Studios](https://cantaloupestudios.itch.io)
  * [Youtube Channel](https://www.youtube.com/channel/UCZQKs1k6apG5ULMck3N14fg)
